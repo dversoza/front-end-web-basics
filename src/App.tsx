@@ -9,7 +9,7 @@ import { AuthProvider } from './context/AuthContext';
 
 const App: React.FC = () => (
   <>
-    <AuthProvider value={{ name: 'Daniel' }}>
+    <AuthProvider>
       <SignIn />
     </AuthProvider>
     <GlobalStyle />
